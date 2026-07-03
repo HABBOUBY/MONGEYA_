@@ -10,11 +10,10 @@
 
 ![ESP32](https://img.shields.io/badge/ESP32-WROOM--32-red)
 ![KiCad](https://img.shields.io/badge/PCB-KiCad-blue)
-![SolidWorks](https://img.shields.io/badge/CAD-SolidWorks-orange)
 ![3D Printing](https://img.shields.io/badge/Fabrication-FDM%203D%20Printing-success)
 ![License](https://img.shields.io/badge/License-MIT-green)
 
-Built by ** HABBOUBY EDEM ** for [Beest](https://beest.hackclub.com/)
+Built by **HABBOUBY EDEM ** for [Beest](https://beest.hackclub.com/)
 
 </div>
 
@@ -36,11 +35,11 @@ This submission covers the **mechanical design (CAD)** and the **custom PCB (KiC
 
 # ⚠️ Note on Physical Fabrication
 
-This submission is provided as a **complete, print-ready CAD and PCB design** (STEP, native SolidWorks files, STL, and KiCad project).
+This submission is provided as a **complete, print-ready CAD and PCB design** (STEP, STL, and KiCad project).
 
 I do not currently have access to a 3D printer, and professional 3D printing services are costly and limited where I live (Tunisia). For this reason, I was not able to physically fabricate and photograph the assembled parts before submission.
 
-Every file needed to reproduce MONGEYA and Mongy — including slicer-ready STL exports, editable native CAD, and print settings — is included in this repository, so the design can be fabricated and verified by anyone with access to a 3D printer.
+Every file needed to reproduce MONGEYA and Mongy — including slicer-ready STL exports and print settings — is included in this repository, so the design can be fabricated and verified by anyone with access to a 3D printer.
 
 ---
 
@@ -173,8 +172,7 @@ mongeya-main/
 │
 ├── 01_3D/
 │   ├── STEP/
-│   ├── STL/
-│   └── SolidWorks/          # native .SLDPRT / .SLDASM files (zipped)
+│   └── STL/
 │
 ├── 02_PCB/
 │   └── mongy/
@@ -209,13 +207,10 @@ mongeya-main/
 # CAD Files
 
 This repository includes:
-- Native SolidWorks files (.SLDPRT / .SLDASM, packed via *Pack and Go*) — `01_3D/SolidWorks/`
-- STEP files (.step) — `01_3D/STEP/`
-- STL files (.stl) — `01_3D/STL/`
+- STEP files (.step) — `01_3D/STEP/`, fully editable in any CAD tool
+- STL files (.stl) — `01_3D/STL/`, ready to slice and print
 
 allowing anyone to modify, remix, or reproduce the project.
-
-**Note:** SolidWorks does not offer a free public web viewer equivalent to Onshape or Fusion 360, so no external CAD link is provided — the native files above serve this purpose instead.
 
 ---
 
