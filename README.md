@@ -6,8 +6,7 @@
 
 *A modular robotic ecosystem designed to automate repetitive household cleaning tasks.*
 
-<!-- Replace with your best render -->
-<img src="media/hero.png" width="900">
+<img src="04_media/hero.png" width="900">
 
 ![ESP32](https://img.shields.io/badge/ESP32-WROOM--32-red)
 ![KiCad](https://img.shields.io/badge/PCB-KiCad-blue)
@@ -15,7 +14,7 @@
 ![3D Printing](https://img.shields.io/badge/Fabrication-FDM%203D%20Printing-success)
 ![License](https://img.shields.io/badge/License-MIT-green)
 
-Built by **[HABBOUBY]** for [Beest](https://beest.hackclub.com/)
+Built by ** HABBOUBY EDEM ** for [Beest](https://beest.hackclub.com/)
 
 </div>
 
@@ -138,7 +137,6 @@ When the station detects that floor cleaning is needed, MONGY leaves its docking
 | Infill | 20% |
 | Walls | 3 |
 | Supports | Only where needed |
-| Orientation | See exploded view in `docs/` for per-part orientation |
 
 ---
 
@@ -159,11 +157,10 @@ Total: **60 M3 screws**
 
 MONGY uses a custom PCB designed in **KiCad** around the **ESP32-WROOM-32**.
 
-The repository contains:
-- PCB layout
-- Schematic
-- KiCad project files
-- Component list ([BOM](pcb/mongy/BOM.xlsx))
+The `02_PCB/mongy/` folder contains:
+- Fabrication files (Gerbers, drill files) — `FABRICATION/`
+- KiCad libraries — `libs/`
+- Component list ([BOM](02_PCB/mongy/Component%20list%20PCB%20DESIGN.xlsx))
 
 The MONGEYA station intentionally uses modular perfboards for auxiliary circuits such as chemical dispensing and opto-isolated interfaces, making maintenance and future upgrades easier.
 
@@ -174,25 +171,24 @@ The MONGEYA station intentionally uses modular perfboards for auxiliary circuits
 ```text
 mongeya-main/
 │
-├── 3D/
+├── 01_3D/
 │   ├── STEP/
 │   ├── STL/
-│   └── SolidWorks/
-│       ├── MONGEYA.SLDASM
-│       ├── Mongy.SLDASM
-│       └── parts/              # individual .SLDPRT files
+│   └── SolidWorks/          # native .SLDPRT / .SLDASM files (zipped)
 │
-├── pcb/
+├── 02_PCB/
 │   └── mongy/
-│       ├── mongy.kicad_pcb
-│       ├── mongy.kicad_sch
-│       ├── mongy.kicad_pro
-│       └── BOM.xlsx
+│       ├── FABRICATION/     # Gerbers + drill files
+│       ├── libs/            # KiCad libraries
+│       └── Component list PCB DESIGN.xlsx
 │
-├── docs/
-│   └── exploded-view.pdf       # or images
+├── 03_docs/
+│   ├── renders/
+│   ├── wiring/
+│   └── PRESENTATION.pdf
 │
-├── media/
+├── 04_media/
+│   └── hero.png
 │
 └── README.md
 ```
@@ -201,11 +197,11 @@ mongeya-main/
 
 # Assembly
 
-1. Print all STL files (see `3D/STL/`) using the settings above.
-2. Assemble the mechanical structure using the specified M3 screws — see exploded view in `docs/`.
+1. Print all STL files (`01_3D/STL/`) using the settings above.
+2. Assemble the mechanical structure using the specified M3 screws — see renders in `03_docs/renders/`.
 3. Install the motors, pumps, and sensors.
 4. Mount the custom PCB inside Mongy.
-5. Connect batteries and wiring.
+5. Connect batteries and wiring — see `03_docs/wiring/`.
 6. Dock Mongy inside MONGEYA.
 
 ---
@@ -213,9 +209,9 @@ mongeya-main/
 # CAD Files
 
 This repository includes:
-- Native SolidWorks files (.SLDPRT / .SLDASM)
-- STEP files (.step)
-- STL files (.stl)
+- Native SolidWorks files (.SLDPRT / .SLDASM, packed via *Pack and Go*) — `01_3D/SolidWorks/`
+- STEP files (.step) — `01_3D/STEP/`
+- STL files (.stl) — `01_3D/STL/`
 
 allowing anyone to modify, remix, or reproduce the project.
 
@@ -223,31 +219,25 @@ allowing anyone to modify, remix, or reproduce the project.
 
 ---
 
-# Credits
-
-Some off-the-shelf mechanical components (fasteners, standard hardware) were sourced from [GrabCAD](https://grabcad.com) and adapted for this assembly. Full credit and source links are listed in `docs/credits.md`.
-
----
-
 # Documentation
 
-Additional documentation is available inside the **docs/** folder, including:
-- Project presentation (2-page PDF)
-- Design renders
-- Exploded view
+Additional documentation is available inside `03_docs/`, including:
+- Project presentation (`PRESENTATION.pdf`)
+- Design renders (`renders/`)
+- Wiring diagrams (`wiring/`)
 
 ---
 
 # Gallery
 
 ## MONGEYA
-*(Insert render here)*
+*(see `03_docs/renders/`)*
 
 ## MONGY
-*(Insert render here)*
+*(see `03_docs/renders/`)*
 
 ## PCB
-*(Insert PCB images here)*
+*(see `03_docs/renders/`)*
 
 ---
 
