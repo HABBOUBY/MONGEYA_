@@ -160,8 +160,7 @@ MONGY uses a custom PCB designed in **KiCad** around the **ESP32-WROOM-32**.
 
 The `02_PCB/mongy/` folder contains:
 - Fabrication files (Gerbers, drill files) — `FABRICATION/`
-- KiCad libraries — `libs/`
-- Component list ([BOM](02_PCB/mongy/Component%20list%20PCB%20DESIGN.xlsx))
+- Component list
 
 The MONGEYA station intentionally uses modular perfboards for auxiliary circuits such as chemical dispensing and opto-isolated interfaces, making maintenance and future upgrades easier.
 
@@ -226,7 +225,7 @@ allowing anyone to modify, remix, or reproduce the project.
 
 Additional documentation is available inside `03_docs/`, including:
 - Project presentation (`PRESENTATION.pdf`)
-- Design renders (`renders/`)
+- Image of the project  (`images/`)
 - Wiring diagrams (`wiring/`)
 
 ---
