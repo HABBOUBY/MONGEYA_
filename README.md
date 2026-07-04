@@ -172,6 +172,12 @@ The MONGEYA station intentionally uses modular perfboards for auxiliary circuits
 ```text
 mongeya-main/
 │
+├── 01_3D/
+│   ├──01_cleaning robot mongy.rar
+│   └── 02_main station mongeya.rar
+|   └── 03_STL.rar/
+│      
+|
 ├── 02_PCB/
 │   └── mongy/
 │       ├── FABRICATION/     # Gerbers + drill files
@@ -180,15 +186,12 @@ mongeya-main/
 ├── 03_docs/
 │   ├── wiring/
 │   └── PRESENTATION.pdf
+|   └── IMAGES
+|
 │
 ├── 04_media/
 │   └── hero.png
 |
-├── 01_STL.rar/
-|
-├──01_cleaning robot mongy.rar
-|
-├──01_main station mongeya.rar
 │
 └── README.md
 ```
