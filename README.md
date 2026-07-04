@@ -171,6 +171,7 @@ The MONGEYA station intentionally uses modular perfboards for auxiliary circuits
 
 ```text
 mongeya-main/
+|
 │
 ├── 01_3D/
 │   ├──01_cleaning robot mongy.rar
