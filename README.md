@@ -184,9 +184,10 @@ mongeya-main/
 │       └── Component list PCB DESIGN.xlsx
 │
 ├── 03_docs/
+|   └── IMAGES
 │   ├── wiring/
 │   └── PRESENTATION.pdf
-|   └── IMAGES
+|   
 |
 │
 ├── 04_media/
