@@ -13,7 +13,7 @@
 ![3D Printing](https://img.shields.io/badge/Fabrication-FDM%203D%20Printing-success)
 ![License](https://img.shields.io/badge/License-MIT-green)
 
-Built by **HABBOUBY EDEM ** for [Beest](https://beest.hackclub.com/)
+Built by **HABBOUBY EDEM** for [Beest](https://beest.hackclub.com/)
 
 </div>
 
@@ -40,6 +40,8 @@ This submission is provided as a **complete, print-ready CAD and PCB design** (S
 I do not currently have access to a 3D printer, and professional 3D printing services are costly and limited where I live (Tunisia). For this reason, I was not able to physically fabricate and photograph the assembled parts before submission.
 
 Every file needed to reproduce MONGEYA and Mongy — including slicer-ready STL exports and print settings — is included in this repository, so the design can be fabricated and verified by anyone with access to a 3D printer.
+
+**On 3D printing access in Tunisia:** Access to 3D printing hardware in Tunisia is particularly constrained. Import duties and customs taxes on 3D printers and electronics significantly raise their price compared to international markets, putting personal ownership out of reach for many students. Local makerspaces with printing capability are few, mostly concentrated in the capital, and operate as private, paid facilities with limited slots rather than open-access community labs. Online/local printing services exist but are costly and add delays for a project of this scale (multiple large structural parts). For these reasons, physical fabrication of MONGEYA and Mongy has not yet been possible, and the design is submitted as a complete, print-ready package so it can be reproduced and verified by anyone with printer access.
 
 ---
 
@@ -191,6 +193,8 @@ mongeya-main/
 └── README.md
 ```
 
+**Note on file compression:** The CAD assemblies (STEP/STL) and the KiCad project for Mongy include large mesh and library data, so they are provided as `.rar` archives to keep the repository within GitHub's size limits and reduce clone/download time. Each archive is self-contained and can be extracted with any standard tool (WinRAR, 7-Zip, The Unarchiver). Once extracted, the STL files are directly slicer-ready and the STEP/native files remain fully editable in any CAD application.
+
 ---
 
 # Assembly
@@ -222,7 +226,6 @@ Additional documentation is available inside `03_docs/`, including:
 - Wiring diagrams (`wiring/`)
 
 ---
-
 
 # Future Improvements
 
