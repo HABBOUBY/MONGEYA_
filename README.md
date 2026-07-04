@@ -55,7 +55,7 @@ Every day she spends a significant amount of time cleaning shoes, sorting waste,
 
 MONGY is the autonomous cleaning robot inside MONGEYA.
 
-When the station detects that floor cleaning is needed, MONGY leaves its docking station, cleans the surrounding area using multiple cleaning mechanisms, and automatically returns to recharge.
+MONGY leaves its docking station, cleans the surrounding area using multiple cleaning mechanisms, and automatically returns to recharge.
 
 ---
 
@@ -170,23 +170,23 @@ The MONGEYA station intentionally uses modular perfboards for auxiliary circuits
 ```text
 mongeya-main/
 │
-├── 01_3D/
-│   ├── STEP/
-│   └── STL/
-│
 ├── 02_PCB/
 │   └── mongy/
 │       ├── FABRICATION/     # Gerbers + drill files
-│       ├── libs/            # KiCad libraries
 │       └── Component list PCB DESIGN.xlsx
 │
 ├── 03_docs/
-│   ├── renders/
 │   ├── wiring/
 │   └── PRESENTATION.pdf
 │
 ├── 04_media/
 │   └── hero.png
+|
+├── 01_STL.rar/
+|
+├──01_cleaning robot mongy.rar
+|
+├──01_main station mongeya.rar
 │
 └── README.md
 ```
@@ -223,18 +223,6 @@ Additional documentation is available inside `03_docs/`, including:
 
 ---
 
-# Gallery
-
-## MONGEYA
-*(see `03_docs/renders/`)*
-
-## MONGY
-*(see `03_docs/renders/`)*
-
-## PCB
-*(see `03_docs/renders/`)*
-
----
 
 # Future Improvements
 
