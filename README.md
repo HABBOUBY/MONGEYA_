@@ -6,7 +6,7 @@
 
 *A modular robotic ecosystem designed to automate repetitive household cleaning tasks.*
 
-<img src="04_media/hero.png" width="900">
+<img src="04_media/hero.png.PNG" width="900">
 
 ![ESP32](https://img.shields.io/badge/ESP32-WROOM--32-red)
 ![KiCad](https://img.shields.io/badge/PCB-KiCad-blue)
