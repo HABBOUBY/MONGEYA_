@@ -1,0 +1,19 @@
+
+MONGEYA - MOTOR & ACTUATORS WIRING
+
+ESP32 PWM Outputs:
+- Button -> JGB37 DC Motors 
+-Button-> BLDC motor ( impeller)
+
+
+Servos:
+- MG995 -> Main mechanical arm / lid
+- MG995 -> RACK & pignon (*2)
+- MG90  -> Locking system
+
+
+Pump Control:- MOSFET Gate 2 -> Chemical Pump A (Bleach)
+- MOSFET Gate 3 -> Chemical Pump B (Gel)
+
+
+All MOSFETs controlled by ESP32 GPIO PWM pins

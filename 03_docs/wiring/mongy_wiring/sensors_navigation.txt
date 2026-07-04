@@ -1,0 +1,26 @@
+
+MONGEYA - SENSORS & NAVIGATION
+
+Controller: ESP32-WROOM-32
+
+Sensors:
+
+1. LiDAR (RPLIDAR)
+- UART TX/RX to ESP32
+- Used for mapping + obstacle detection
+
+2. Hall Effect Encoders (N20 motors)
+- Digital pulse feedback to ESP32
+- Used for PID speed control
+
+3. IR Sensors
+- Digital input pins
+- Used for proximity detection
+
+4. Push Buttons
+- Manual override / reset / start
+
+Navigation Logic:
+- PID control based on encoder feedback
+- LiDAR for obstacle avoidance
+

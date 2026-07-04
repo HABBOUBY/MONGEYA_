@@ -1,0 +1,20 @@
+
+MONGEYA - POWER DISTRIBUTION
+
+Battery: 3S LiPo (11.1V)
+
+Main Power Flow:
+3S LiPo
+  -> Power Switch
+  -> Fuse (optional safety)
+  -> 12V Rail
+      -> Vacuum Pump (12V)
+      -> Chemical Pumps (12V via MOSFET)
+      -> Motors Driver (JGB37)
+  -> 5V Regulator (Buck Converter)
+      -> ESP32-WROOM-32
+      -> Sensors (IR, buttons)
+      -> LiDAR (if 5V model)
+
+Ground:
+All systems share COMMON GND
