@@ -247,13 +247,9 @@ allowing anyone to modify, remix, or reproduce the project.
   <img src="03_docs/CAD different view/cap mongeya 1.PNG" width="400">
   <img src="03_docs/CAD different view/cap mongy 2.PNG" width="400">
 </p>
-<p align="center">
-  <img src="03_docs/CAD different view/systeme_de_tri.PNG" width="600">
-</p>
 
-*(Note: rename any image with accents or spaces — e.g. "système de tri" → "systeme_de_tri" — to avoid broken image links on GitHub. Update the path above to match the exact final filename.)*
 
-A full turntable / exploded-view video is linked in the **Demo URL** field of the submission.
+
 
 ---
 
