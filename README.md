@@ -244,14 +244,14 @@ allowing anyone to modify, remix, or reproduce the project.
 # Renders
 
 <p align="center">
-  <img src="03_docs/renders/mongy 4k" width="400">
-  <img src="03_docs/renders/mongeya 4k" width="400">
+  <img src="03_docs/CAD different view/cap mongeya 1.PNG" width="400">
+  <img src="03_docs/CAD different view/cap mongy 2.PNG" width="400">
 </p>
 <p align="center">
-  <img src="03_docs/CAD different view/système de tri" width="600">
+  <img src="03_docs/CAD different view/systeme_de_tri.PNG" width="600">
 </p>
 
-*(Replace the filenames above with your actual chosen renders — 2-3 images total, e.g. a full MONGEYA overview, a Mongy close-up, and one detail shot such as the sorting mechanism.)*
+*(Note: rename any image with accents or spaces — e.g. "système de tri" → "systeme_de_tri" — to avoid broken image links on GitHub. Update the path above to match the exact final filename.)*
 
 A full turntable / exploded-view video is linked in the **Demo URL** field of the submission.
 
