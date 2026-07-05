@@ -248,7 +248,7 @@ allowing anyone to modify, remix, or reproduce the project.
   <img src="03_docs/renders/mongeya 4k" width="400">
 </p>
 <p align="center">
-  <img src="03_docs/CAD different view/MONGY 1.0c4K" width="600">
+  <img src="03_docs/CAD different view/système de tri" width="600">
 </p>
 
 *(Replace the filenames above with your actual chosen renders — 2-3 images total, e.g. a full MONGEYA overview, a Mongy close-up, and one detail shot such as the sorting mechanism.)*
