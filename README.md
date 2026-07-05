@@ -249,7 +249,7 @@ allowing anyone to modify, remix, or reproduce the project.
 </p>
 
 
-A full turntable / exploded-view video is linked in the **Demo URL** field of the submission.
+
 
 ---
 
