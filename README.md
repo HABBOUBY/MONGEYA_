@@ -45,6 +45,12 @@ Every file needed to reproduce MONGEYA and Mongy — including slicer-ready STL 
 
 ---
 
+# On AI Assistance
+
+As this is my first time using GitHub to structure and share a project of this scale, I used AI assistance to help review this submission against the shipping guide requirements, research relevant resources, and refine parts of this documentation. All design work — CAD modeling, PCB design, and engineering decisions — is my own.
+
+---
+
 # Why I Built This
 
 The inspiration behind MONGEYA comes from my mother.
@@ -170,44 +176,44 @@ The MONGEYA station intentionally uses modular perfboards for auxiliary circuits
 
 ```text
 mongeya-main/
-|
 │
 ├── 01_3D/
-|   └──OLIDWORKS PARTS
-|      └──MONGEYA & MONGY solidworks parts
-|      └──MONGY solidworks parts
-|      └──protection system
-|      └──assembly MONGEYA
-|      └──assembly MONGEY
-|   └──STL/
-|      └──STL FILES MONGEYA/
-|      └──STL MONGY/
-│   └──cleaning robot mongySTEP
-│   └──main station mongeyaSTEP.rar // car le fichier est un peu volumieux 
-|   
-│      
-|
+│   ├── SOLIDWORKS PARTS/
+│   │   ├── MONGEYA & MONGY solidworks parts/   # Full native source — Mongy lives inside MONGEYA, so its parts are bundled here too 🙂
+│   │   ├── MONGY solidworks parts/              # Standalone native source for Mongy only
+│   │   ├── protection system/
+│   │   ├── assembly MONGEYA/
+│   │   └── assembly MONGY/
+│   │
+│   ├── STL/
+│   │   ├── STL FILES MONGEYA/
+│   │   └── STL MONGY/
+│   │
+│   ├── cleaning robot mongySTEP/                # STEP source for Mongy only — the standalone cleaning robot, separate from the station
+│   └── main station mongeyaSTEP.rar             # Single .rar — this assembly is a single (but heavy) STEP file, zipped to keep the repo light
+│
 ├── 02_PCB/
 │   └── mongy/
 │       ├── FABRICATION/     # Gerbers + drill files
 │       └── Component list PCB DESIGN.xlsx
 │
 ├── 03_docs/
-|   └──CAD different view/
-|   └──renders/
-│   └──wiring/
-│   └──PRESENTATION.pdf
-|   
-|
+│   ├── CAD different view/
+│   ├── renders/
+│   ├── wiring/
+│   └── PRESENTATION.pdf
 │
 ├── 04_media/
 │   └── hero.png
-|
 │
 └── README.md
 ```
 
-**Note on file compression:** The CAD assemblies (STEP/STL) and the KiCad project for Mongy include large mesh and library data, so they are provided as `.rar` archives to keep the repository within GitHub's size limits and reduce clone/download time. Each archive is self-contained and can be extracted with any standard tool (WinRAR, 7-Zip, The Unarchiver). Once extracted, the STL files are directly slicer-ready and the STEP/native files remain fully editable in any CAD application.
+**On the "MONGEYA & MONGY solidworks parts" folder:** since Mongy physically docks and lives inside MONGEYA (it's the little robot that comes out of the big station, hihi 🐢🏠), the full combined SolidWorks source for both is kept together in one folder — this is the one to open if you want the complete ecosystem in a single assembly. The separate **"MONGY solidworks parts"** folder exists for anyone who only wants to reproduce the standalone cleaning robot on its own, without the station.
+
+**On `cleaning robot mongySTEP`:** this folder holds the STEP export specifically for Mongy alone — useful if you just want to print/inspect the robot without pulling in the whole MONGEYA station.
+
+**Note on file compression:** The `main station mongeya` assembly is provided as a single `.rar` because it is one large STEP file — zipping it keeps the repository lighter and faster to clone. It can be extracted with any standard tool (WinRAR, 7-Zip, The Unarchiver), and the STEP file inside remains fully editable in any CAD application. The STL exports are already slicer-ready as-is, no extraction needed beyond opening the STL folders.
 
 ---
 
@@ -225,8 +231,9 @@ mongeya-main/
 # CAD Files
 
 This repository includes:
-- STEP files (.step) — `01_3D/STEP/`, fully editable in any CAD tool
-- STL files (.stl) — `01_3D/STL/`, ready to slice and print
+- **STEP files** — `01_3D/cleaning robot mongySTEP/` for Mongy, and `01_3D/main station mongeyaSTEP.rar` for MONGEYA, fully editable in any CAD tool
+- **Native SolidWorks source** — `01_3D/SOLIDWORKS PARTS/`, split into the combined MONGEYA+MONGY assembly and the standalone Mongy parts
+- **STL files** — `01_3D/STL/`, ready to slice and print
 
 allowing anyone to modify, remix, or reproduce the project.
 
@@ -236,7 +243,7 @@ allowing anyone to modify, remix, or reproduce the project.
 
 Additional documentation is available inside `03_docs/`, including:
 - Project presentation (`PRESENTATION.pdf`)
-- Image of the project  (`images/`)
+- CAD views and renders (`CAD different view/`, `renders/`)
 - Wiring diagrams (`wiring/`)
 
 ---
