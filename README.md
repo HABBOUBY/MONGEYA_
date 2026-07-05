@@ -173,9 +173,18 @@ mongeya-main/
 |
 │
 ├── 01_3D/
-│   ├──01_cleaning robot mongy.rar
-│   └── 02_main station mongeya.rar
-|   └── 03_STL.rar/
+|   └──OLIDWORKS PARTS
+|      └──MONGEYA & MONGY solidworks parts
+|      └──MONGY solidworks parts
+|      └──protection system
+|      └──assembly MONGEYA
+|      └──assembly MONGEY
+|   └──STL/
+|      └──STL FILES MONGEYA/
+|      └──STL MONGY/
+│   └──cleaning robot mongySTEP
+│   └──main station mongeyaSTEP.rar // car le fichier est un peu volumieux 
+|   
 │      
 |
 ├── 02_PCB/
@@ -184,9 +193,10 @@ mongeya-main/
 │       └── Component list PCB DESIGN.xlsx
 │
 ├── 03_docs/
-|   └── IMAGES
-│   ├── wiring/
-│   └── PRESENTATION.pdf
+|   └──CAD different view/
+|   └──renders/
+│   └──wiring/
+│   └──PRESENTATION.pdf
 |   
 |
 │
