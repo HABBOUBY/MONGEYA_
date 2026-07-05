@@ -43,6 +43,8 @@ Every file needed to reproduce MONGEYA and Mongy — including slicer-ready STL 
 
 **On 3D printing access in Tunisia:** Access to 3D printing hardware in Tunisia is particularly constrained. Import duties and customs taxes on 3D printers and electronics significantly raise their price compared to international markets, putting personal ownership out of reach for many students. Local makerspaces with printing capability are few, mostly concentrated in the capital, and operate as private, paid facilities with limited slots rather than open-access community labs. Online/local printing services exist but are costly and add delays for a project of this scale (multiple large structural parts). For these reasons, physical fabrication of MONGEYA and Mongy has not yet been possible, and the design is submitted as a complete, print-ready package so it can be reproduced and verified by anyone with printer access.
 
+**Consequence for the live demo / playable version:** for the same reason, no live demo or playable version of the physical robot exists yet — there is no functioning hardware to record or interact with. In place of a live demo, the **Demo URL** points to a CAD walkthrough (renders / exploded view / turntable) so reviewers can still see the design in motion and in detail.
+
 ---
 
 # On AI Assistance
@@ -236,6 +238,22 @@ This repository includes:
 - **STL files** — `01_3D/STL/`, ready to slice and print
 
 allowing anyone to modify, remix, or reproduce the project.
+
+---
+
+# Renders
+
+<p align="center">
+  <img src="03_docs/renders/mongy 4k" width="400">
+  <img src="03_docs/renders/mongeya 4k" width="400">
+</p>
+<p align="center">
+  <img src="03_docs/CAD different view/MONGY 1.0c4K" width="600">
+</p>
+
+*(Replace the filenames above with your actual chosen renders — 2-3 images total, e.g. a full MONGEYA overview, a Mongy close-up, and one detail shot such as the sorting mechanism.)*
+
+A full turntable / exploded-view video is linked in the **Demo URL** field of the submission.
 
 ---
 
