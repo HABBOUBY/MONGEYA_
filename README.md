@@ -131,6 +131,23 @@ MONGY leaves its docking station, cleans the surrounding area using multiple cle
 
 ---
 
+# 📦 Physical Scale Mockup (1:3.5)
+
+While a full-scale 3D print of MONGEYA was not possible for the reasons explained above (no 3D printer access, high import costs on electronics/printers in Tunisia), a physical **1:3.5 scale cardboard mockup** was built by hand to demonstrate the real-world footprint, proportions, and general layout of the station.
+
+This mockup shows:
+- The overall enclosure shape and footprint of MONGEYA
+- The docking bay where Mongy sits when charging
+- The general internal cavity arrangement
+
+It is **not a functional prototype** — no electronics, sensors, or motors are installed — but it serves as tangible, physical proof of the design's real-world scale and proportions, complementing the CAD renders and STL/STEP files included in this repository.
+
+<p align="center">
+  <img src="04_media/cardboard_mockup.jpg" width="500">
+</p>
+
+---
+
 # 3D Printing
 
 ## Materials
