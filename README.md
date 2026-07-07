@@ -143,7 +143,7 @@ This mockup shows:
 It is **not a functional prototype** — no electronics, sensors, or motors are installed — but it serves as tangible, physical proof of the design's real-world scale and proportions, complementing the CAD renders and STL/STEP files included in this repository.
 
 <p align="center">
-  <img src="04_media/cardboard_mockup.jpg.JPEG" width="500">
+  <img src="04_media/cardboard_mockup.jpg.jpeg" width="500">
 </p>
 
 ---
