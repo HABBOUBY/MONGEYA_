@@ -181,11 +181,11 @@ mongeya-main/
 │
 ├── 01_3D/
 │   ├── SOLIDWORKS PARTS/
-│   │   ├── MONGEYA & MONGY solidworks parts/   # Full native source — Mongy lives inside MONGEYA, so its parts are bundled here too 🙂
+│   │   ├── MONGEYA & MONGY solidworks parts/   # Full native source — Mongy lives inside MONGEYA, so its parts are bundled here too 
 │   │   ├── MONGY solidworks parts/              # Standalone native source for Mongy only
 │   │   ├── protection system/
-│   │   ├── assembly MONGEYA/
-│   │   └── assembly MONGY/
+│   │  
+│   │
 │   │
 │   ├── STL/
 │   │   ├── STL FILES MONGEYA/
